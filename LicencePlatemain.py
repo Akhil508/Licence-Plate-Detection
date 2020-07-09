@@ -1,6 +1,6 @@
 import cv2
 import pytesseract
-import n
+import numpy
 
 pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files (x86)\\Tesseract-OCR\\tesseract.exe'
 
@@ -11,8 +11,6 @@ def canny(image):
 if __name__ == "__main__":
 
     cap = cv2.VideoCapture('VID_20200706_154019.mp4')
-
-    #net = cv2.dnn.readNet("frozen_east_text_detection.pb")
 
     while cv2.waitKey(1) < 0:
         hasFrame, image = cap.read()
