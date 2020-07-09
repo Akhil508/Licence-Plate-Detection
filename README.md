@@ -1,5 +1,6 @@
 # Licence-Plate-Detection
-reading the data using pytesseract
+Detecting licence plate and
+Reading the data using pytesseract
 
 install pytesseract from
 https://tesseract-ocr.github.io/tessdoc/Home.html
